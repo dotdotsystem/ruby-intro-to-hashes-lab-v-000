@@ -25,6 +25,6 @@ end
 
 def monopoly_with_fourth_tier
 	monopoly => { :railroads =
-		{:pieces => 4, :names => {}, :rent_in_dollars{ :one_piece_owned => 25, :two_pieces_owned => 50}}}#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
+		{:pieces => 4, :names => {:reading_railroad => {}, :pennsylvania_railroad => {}}, :rent_in_dollars{ :one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned => 100, :four_pieces_owne => 200}}}#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
 
 end
